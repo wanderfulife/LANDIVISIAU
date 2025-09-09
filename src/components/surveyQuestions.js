@@ -11,7 +11,7 @@ export const templateSurveyQuestions = [
             { id: 1, text: "Je vais prendre le train", next: "Q2_MONTANTS" },
             { id: 2, text: "Je viens de descendre du train", next: "end" }, // Do not interview
             { id: 3, text: "J'accompagne des voyageurs qui partent / J'attends des voyageurs qui arrivent", next: "Q2_ACCOMPAGNATEURS" },
-            { id: 4, text: "Autre raison (achat billet, commerces en gare...)", next: "end" }
+            { id: 4, text: "Autre raison (achat billet, commerces en gare...)", next: "Q2_ACCOMPAGNATEURS" }
         ]
     },
 
