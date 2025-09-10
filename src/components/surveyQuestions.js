@@ -78,6 +78,8 @@ export const templateSurveyQuestions = [
         id: "Q3A_MONTANTS",
         text: "Où avez-vous stationné votre véhicule ?",
         type: 'singleChoice',
+         image: '/plan.png',
+        imageAlt: 'Plan de la gare de Landivisiau montrant les zones de stationnement',
         options: [
             { id: 1, text: "Sur le parking de la gare", next: "Q3A_PRIME_MONTANTS" },
             { id: 2, text: "Sur une autre place en voirie ou parking au sud de la gare", next: "Q3A_PRIME_MONTANTS" },
