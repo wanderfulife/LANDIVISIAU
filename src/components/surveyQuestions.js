@@ -54,7 +54,7 @@ export const templateSurveyQuestions = [
             { id: 2, text: "En voiture -- en tant que conducteur", next: "Q3A_MONTANTS" },
             { id: 3, text: "En voiture -- en tant que passager", next: "Q4_MONTANTS" },
             { id: 4, text: "En covoiturage avec un autre usager du train", next: "Q4_MONTANTS" },
-            { id: 5, text: "En bus/car", next: "Q3B_MONTANTS" },
+            { id: 5, text: "En transport en commun (navette ou transport à la demande)", next: "Q3B_MONTANTS" },
             { id: 6, text: "À vélo", next: "Q3D_MONTANTS" },
             { id: 7, text: "En trottinette", next: "Q3D_MONTANTS" },
             { id: 8, text: "En Taxi/VTC", next: "Q4_MONTANTS" },
@@ -114,10 +114,9 @@ export const templateSurveyQuestions = [
             { id: 3, text: "Ligne BreizhGo 981 (Plouzévédé - Landivisiau)", next: "Q4_MONTANTS" },
             { id: 4, text: "Ligne BreizhGo 9801 (Sizun - Landivisiau)", next: "Q4_MONTANTS" },
             { id: 5, text: "Ligne BreizhGo 9802 (Guiclan - Landivisiau)", next: "Q4_MONTANTS" },
-            { id: 6, text: "Ligne BreizhGo 9803 (Saint-Fougay - Landivisiau)", next: "Q4_MONTANTS" },
+            { id: 6, text: "Ligne BreizhGo 9803 (Saint-Vougay - Landivisiau)", next: "Q4_MONTANTS" },
             { id: 7, text: "Ligne BreizhGo 9804 (Loc-Eguiner - Landivisiau)", next: "Q4_MONTANTS" },
-            { id: 8, text: "Car scolaire", next: "Q4_MONTANTS" },
-            { id: 9, text: "Autre", next: "Q3B_AUTRE_MONTANTS" }
+            { id: 8, text: "Autre", next: "Q3B_AUTRE_MONTANTS" }
         ]
     },
 
@@ -159,8 +158,7 @@ export const templateSurveyQuestions = [
         type: 'singleChoice',
         options: [
             { id: 1, text: "Oui, un abonnement TER", next: "Q5_MONTANTS" },
-            { id: 2, text: "Oui, un abonnement couplé TER-Bus", next: "Q5_MONTANTS" },
-            { id: 3, text: "Non", next: "Q5_MONTANTS" }
+            { id: 2, text: "Non", next: "Q5_MONTANTS" }
         ]
     },
 
